@@ -5,7 +5,10 @@ RewriteEngine On
 SetEnv KOHANA_ENV production
 
 # Installation directory
-SetEnv BASE_URL /
+#SetEnv BASE_URL /
+
+#localhost
+SetEnv BASE_URL http://localhost/skycorretores/
 
 # Protect hidden files from being viewed
 <Files .*>
